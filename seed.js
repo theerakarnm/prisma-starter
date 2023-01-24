@@ -6,6 +6,8 @@ const create = async () => {
   const users = [
     { name: 'John', surname: 'Smith' },
     { name: 'Jane', surname: 'bitter' },
+    { name: 'Jame', surname: 'lover' },
+    { name: 'Theera', surname: 'butter' },
   ];
   const newUser = await prisma.user.createMany({
     data: users,
@@ -47,4 +49,4 @@ const deleteUser = async () => {
   return deletedUsers;
 };
 
-deleteUser().then((res) => console.log(res));
+create().then((res) => console.log(res));
