@@ -13,8 +13,8 @@
     "noImplicitAny": true,
     "sourceMap": false,
     "strict": true,
-    "baseUrl": ".",
-    "outDir": "../dist"
+    "baseUrl": "./src",
+    "outDir": "./dist"
   },
   "include": ["./**/*"],
   "exclude": ["node_modules/"]
